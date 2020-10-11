@@ -10,9 +10,9 @@ class Solution
 public:
     int threeSumClosest(vector<int>& nums, int target) 
     {
-        //ergotic i,j,k
         int closestval = 0;
         int minval = INT_MAX;
+        //ergotic i,j,k
         for(int i = 0; i<nums.size(); i++)
             for(int j = i + 1; j<nums.size(); j++)
                 for(int k = j + 1; k<nums.size(); k++)
